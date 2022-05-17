@@ -12,7 +12,7 @@ const staffRouter = require('./routes/staffRouter');
 const appointmentRouter = require('./routes/appointmentRouter');
 
 const app = express();
-//
+
 //middlewares
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
